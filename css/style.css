@@ -1,10 +1,13 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: rgb(14, 14, 14);
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.7;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 20, 58, 0.849);
   float: left;
   position: fixed;
   width: 100%;
@@ -13,6 +16,18 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 1;
+  padding: 40px 0px;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 200;
 }
 
 .large-pic {
@@ -42,6 +57,10 @@ li {
   padding: 30px;
 }
 
+.author {
+  font-style: italic;
+}
+
 article {
   padding-top: 100px;
 }
@@ -49,4 +68,21 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+p {
+  padding-bottom: 20px;
+}
+
+
+/* Links pseudo class */
+a:link { color:#efefef; }
+a:visited { color:#d1d1d1; } /* visited */
+a:hover { color: rgb(196, 196, 196); } /* mouse over */
+
+a {
+  text-decoration: none;
+}
+
+figcaption {
+  font-size: .8em; 
 }
